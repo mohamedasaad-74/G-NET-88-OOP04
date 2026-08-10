@@ -29,6 +29,23 @@
             //بنستخدم override عند child ,virtual عند parent
             // انه يعيد استخدمهاparent  يمكن ل
             #endregion
+            #region Question2
+            //a)  What is the purpose of the sealed keyword when applied to a class?
+            //sealed keyword ==بتمنع اني اورث من الكلاس 
+            //================================================
+
+            //b)  What is the difference between a sealed class and a sealed method?
+            //=================sealed class=================
+            //بتمنع التوريث من الكلاس كامل 
+
+            //=====================sealed method==================
+            //  دي داله جوا الكلاس ممنوع الابن يعدل عليها لاكن في وراثه عادي 
+            //===================================================
+
+            //c)  Can a sealed method be overridden? Why?
+            // بتمنع التعديل علي الداله sealed methodلا مينفعش لان ال
+         //=======================================================
+            #endregion
         }
     }
 }
